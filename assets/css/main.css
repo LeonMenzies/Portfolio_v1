@@ -1,0 +1,178 @@
+@font-face{
+    font-family: 'futuraMedium';
+    src: url(../../fonts/futura\ medium\ bt.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'futuraBook';
+    src: url(../../fonts/Futura\ Book\ font.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family: 'futuraLight';
+    src: url(../../fonts/futura\ light\ bt.ttf);
+    font-style: normal;
+
+}
+*:focus{
+    outline: 0;
+}
+body{
+    font-family: futuraLight, sans-serif;
+    background-image: url(../../imgs/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+/*HEADER*/
+header{
+    background-color:rgb(0, 0, 0, 0.7);
+    color: grey;
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 0.06em;
+}
+h3{
+    margin: -10px 0 0 0;
+    font-size: 25px;
+    letter-spacing: 0.04em;
+
+}
+.btn{
+    font-size: 25px;
+    width: 90px;
+    text-decoration: none;
+    margin: 7px;
+    color: grey;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+
+
+/*BUTTONS*/
+.actualBtn{
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    height: 30px;
+    width: 130px;
+    border: none;
+    font-size: 17px;
+    margin: 5px 30px;
+}
+.actualBtn:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+.navBtn{
+    text-align: center;
+}
+
+
+/*DISPLAY SECTION*/
+#displaySection{
+    width: 900px;
+    height: 40px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*ABOUT*/
+#aboutPage{
+    width: 900px;
+    height: 490px;
+    background-color: white;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.aboutMe{
+    margin: 10px;
+}
+#aboutPage .scrollMenu{
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+#aboutPage .scrollMenu figure{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+#aboutPage img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+
+
+/*PROJECTS*/
+#projectsPage{
+    width: 900px;
+    height: 490px;
+    background-color: white;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shownProjects{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shownProjects figure img{
+    width: 300px;
+}
+.shownProjects figure button{
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    font-size: 17px;
+    margin: 5px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.shownProjects figure button:hover{
+    opacity: 0.2;
+}
+.shownProjects figure figcaption{
+    color: black;
+    font-size: 16px;
+    margin: -60px 0 0 0;
+}
+
+
+/*CONTACT*/
+#contactPage{
+    width: 900px;
+    height: 490px;
+    background-color: white;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
